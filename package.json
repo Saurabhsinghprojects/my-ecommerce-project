@@ -9,7 +9,8 @@
     "dev": "nodemon backend/server.js",
     "client": "yarn --cwd client run start",
     "client:install": "yarn --cwd client add react-scripts --save",
-    "client:build": "yarn --cwd client run build"
+    "client:build": "yarn --cwd client run build",
+    "build":"yarn client:install && yarn client:build"
   },
   "author": "saurabh",
   "license": "ISC",
